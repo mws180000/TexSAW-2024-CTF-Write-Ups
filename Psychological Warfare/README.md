@@ -1,3 +1,16 @@
+# Name
+Psychological Warfare
+
+## Category
+Rev
+
+## Points
+300
+
+## Description
+Did you know that the mov instruction in x86 is Turing complete :D?
+
+## Solution
 Upon reverse engineering the 32-bit binary `runme`, you will notice that all of the assembly instructions are `mov` instructions, which makes the machine incredibly difficult to decipher with decompilers or debuggers. In other words, this binary was obfuscated using the [movfuscator](https://github.com/xoreaxeaxeax/movfuscator) tool. Running the binary will print out two questions that need to be answered, as the flag consists of the answers to the two questions:
 
 ```
